@@ -18,7 +18,7 @@ p {
   height: 100%;
 }
 
-.fixed-top{
+.fixed-top {
   background-color: var(--accent-color);
 }
 
@@ -93,7 +93,7 @@ button:hover {
   padding-bottom: 10rem;
 }
 
-.about-title{
+.about-title {
   font-size: 150px;
 
   @media (max-width: 575.98px) {
@@ -134,6 +134,24 @@ button:hover {
   padding-bottom: 10rem;
 }
 
+#testimonial {
+  background: var(--accent-color);
+}
+
+#testimonial .container {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.carousel-indicators button {
+  background-color: var(
+    --primary-color
+  ) !important; /* Default inactive color */
+}
+.carousel-indicators .active {
+  background-color: var(--primary-color); /* Active color */
+}
+
 #team {
   background: var(--accent-color);
 }
@@ -141,6 +159,26 @@ button:hover {
 #team .container {
   padding-top: 10rem;
   padding-bottom: 10rem;
+}
+
+#partner {
+  background: var(--accent-color);
+}
+
+#partner .container {
+  padding-top: 0;
+  padding-bottom: 5rem;
+}
+
+.partner-img {
+  max-width: 100%;
+  height: auto;
+}
+.partner-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 #bussines {
@@ -282,7 +320,7 @@ button:hover {
 }
 
 @media (max-width: 576px) {
-  .image-circle{
+  .image-circle {
     text-align: center;
   }
   .image-circle img {
@@ -310,7 +348,7 @@ button:hover {
   height: 250px;
   width: 250px;
   font-weight: var(--fw-medium);
-  @media (max-width:507px) {
+  @media (max-width: 507px) {
     border-radius: 0%;
     margin-right: 0px !important;
   }
@@ -337,6 +375,27 @@ button:hover {
   padding-bottom: 10rem;
 }
 
+#list-product {
+  background-color: var(--accent-color);
+}
+
+#list-product .container {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+}
+.page-link{
+  color: var(--primary-color) !important;
+}
+.active>.page-link{
+  background-color: var(--background-color) !important;
+  color: var(--accent-color) !important;
+}
+
 #location-product {
   background: var(--background-color);
   background-position: center;
@@ -357,16 +416,16 @@ button:hover {
   padding-bottom: 10rem;
 }
 
-.contact-link:hover {
+.link:hover {
   text-decoration: none;
   color: var(--primary-color) !important;
 }
-.contact-link {
+.link {
   text-decoration: none;
   color: var(--accent-color) !important;
 }
 
-.border-success{
+.border-success {
   border-color: var(--background-color) !important;
 }
 
